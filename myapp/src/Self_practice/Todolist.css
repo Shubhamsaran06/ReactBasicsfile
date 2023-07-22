@@ -1,0 +1,18 @@
+.maindiv{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.inp{
+    width: 50%;
+    height: 40px;
+    font-size: large;
+    border: none;
+}
+h2{
+    color: white;
+    margin-left: 40%;
+    text-decoration-line: underline;
+}
