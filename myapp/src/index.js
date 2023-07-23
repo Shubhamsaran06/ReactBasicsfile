@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Nav from './Navbar.js'
+import AppContext from './AppContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
     {/* <Nav/> */}
-    <App />
+    {/* <App /> */}
+    <AppContext/>
   </React.StrictMode>
 );
 

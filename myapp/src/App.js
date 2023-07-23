@@ -26,9 +26,13 @@ export default function App(){
                 
 
 
-            <Provider store={store}>
+            {/* <Provider store={store}>
             <Main/>
-            </Provider>
+            </Provider> */}
+
+
+                
+
               
           </div>
      )
